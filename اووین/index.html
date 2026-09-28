@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oveen Roleplay | Sky RP</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#0b0d17;--card:#141828;--line:#242a44;--tx:#e8ebf7;--mut:#8b93b5;--ac:#7c5cff;--ac2:#22d3ee}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1000px 500px at 80% -10%,#2a1f6b55,transparent),var(--bg);color:var(--tx);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.8}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;display:flex;gap:6px;overflow-x:auto;padding:10px 14px;background:#0b0d17ee;border-bottom:1px solid var(--line)}
+nav a{color:var(--mut);text-decoration:none;white-space:nowrap;padding:4px 12px;border-radius:99px;font-size:14px}
+nav a:hover{color:#fff;background:var(--card)}
+section{max-width:1000px;margin:0 auto;padding:44px 16px 8px}
+h2{font-size:24px;margin:0 0 18px;border-right:4px solid var(--ac);padding-right:12px}
+.hero{text-align:center;padding:64px 16px 30px}
+.sky{font-family:Orbitron,sans-serif;font-weight:900;font-size:clamp(38px,9vw,76px);background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent;margin:0;direction:ltr}
+.sub{color:var(--mut);font-size:18px;margin:4px 0 20px}
+.ip{display:inline-flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 16px;direction:ltr;font-family:monospace}
+.btn{background:linear-gradient(90deg,var(--ac),#5b8cff);color:#fff;border:0;border-radius:10px;padding:9px 18px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+.btn.o{background:none;border:1px solid var(--line);color:var(--tx)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.c{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.c b{display:block}.c .p{color:var(--ac2);font-weight:700}.c small{color:var(--mut)}
+.tag{font-size:11px;background:#7c5cff33;color:#b9a8ff;border-radius:6px;padding:0 7px;margin-right:6px}
+h3{margin:26px 0 10px;color:var(--mut);font-size:16px}
+.rank{display:flex;align-items:center;gap:10px;padding:8px 14px;border-radius:10px;background:var(--card);border:1px solid var(--line);margin-bottom:6px;direction:ltr}
+.dot{width:14px;height:14px;border-radius:50%;flex:none}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:8px;border-bottom:1px solid var(--line);text-align:center}
+.wrap{overflow-x:auto}
+input,select,textarea{width:100%;background:#0b0d17;border:1px solid var(--line);color:var(--tx);border-radius:10px;padding:10px;font:inherit;margin-bottom:10px}
+.dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+footer{text-align:center;color:var(--mut);padding:40px 16px;font-size:14px}
+footer a{color:var(--ac2)}
+.ok{color:#4ade80}
+</style>
+</head>
+<body>
+<nav><a href="#top">خانه</a><a href="#dl">دانلود</a><a href="#shop">شاپ</a><a href="#gang">تعرفه گنگ</a><a href="#kit">کیت ماشین</a><a href="#special">آیتم ویژه</a><a href="#ticket">تیکت</a><a href="#staff">استف</a><a href="#rules">قوانین</a></nav>
+
+<div class="hero" id="top">
+  <h1 class="sky">SKY RP</h1>
+  <p class="sub">Oveen Roleplay · سرور رول‌پلی MTA سن‌اندریاس</p>
+  <div class="ip"><span id="ip">IP: به‌زودی</span><button class="btn o" onclick="cp()">کپی</button></div>
+  <p style="margin-top:22px"><a class="btn" href="#dl">شروع بازی</a> <a class="btn o" href="#ticket">ثبت تیکت</a></p>
+</div>
+
+<section id="dl"><h2>دانلود و ورود</h2>
+<div class="dl">
+<div class="c"><b>۱. GTA San Andreas</b><small>نسخه اصلی از استیم، یا هر نسخه سالم دلخواه</small><br><a class="btn o" style="margin-top:10px" target="_blank" rel="noopener" href="https://store.steampowered.com/app/12120/">دانلود / خرید</a></div>
+<div class="c"><b>۲. Multi Theft Auto (MTA:SA)</b><small>دانلود رسمی از سایت خود MTA</small><br><a class="btn o" style="margin-top:10px" target="_blank" rel="noopener" href="https://multitheftauto.com/">دانلود MTA</a></div>
+<div class="c"><b>۳. ورود به سرور</b><small>MTA را باز کن، Direct Connect و IP سرور را وارد کن</small><br><button class="btn" style="margin-top:10px" onclick="cp()">کپی IP</button></div>
+</div></section>
+
+<section id="shop"><h2>شاپ جی‌سی (GC)</h2><div class="grid" id="gc"></div>
+<p><small style="color:var(--mut)">جی‌سی دلخواه: قیمت متناسب با تعداد جی‌سی محاسبه می‌شود. خرید فقط از طریق تیکت «خرید».</small></p></section>
+
+<section id="gang"><h2>تعرفه گنگ</h2>
+<div class="grid" id="g1"></div>
+<h3>کیت‌های گنگ و دارایی</h3><div class="grid" id="g2"></div></section>
+
+<section id="kit"><h2>کیت ماشین <span class="tag">دائمی</span></h2><div class="grid" id="kits"></div></section>
+
+<section id="special"><h2>آیتم‌های ویژه</h2><div class="grid" id="sp"></div></section>
+
+<section id="ticket"><h2>تیکت پشتیبانی</h2>
+<div class="c">
+<label>موضوع</label>
+<select id="cat" onchange="acc()"></select>
+<div id="accbox" style="color:var(--mut);font-size:14px;margin-bottom:10px"></div>
+<input id="nm" placeholder="نام کاراکتر / نام کاربری">
+<textarea id="msg" rows="5" placeholder="توضیح کامل درخواست (برای خرید: نام بسته یا آیتم را بنویس)"></textarea>
+<button class="btn" onclick="send()">ارسال تیکت</button>
+<p id="res" class="ok"></p>
+</div>
+<h3>سطح دسترسی هر موضوع</h3>
+<div class="wrap"><table id="mx"></table></div>
+<small style="color:var(--mut)">تیکت‌ها بین تیم استف مدیریت می‌شوند؛ موضوعات خرید و تیم مدیریتی حساس‌اند و به همه استف‌ها نمایش داده نمی‌شوند.</small>
+</section>
+
+<section id="staff"><h2>رنک‌های استف</h2><div id="rk"></div></section>
+
+<section id="rules"><h2>قوانین کلی</h2><div class="grid">
+<div class="c"><b>RP واقعی</b><small>از کاراکتر خارج نشو (No OOC / Meta-gaming).</small></div>
+<div class="c"><b>ممنوعیت DM و RDM</b><small>بدون سناریوی RP کشتن ممنوع است.</small></div>
+<div class="c"><b>احترام</b><small>به بازیکنان و استف‌ها احترام بگذار.</small></div>
+<div class="c"><b>ممنوعیت چیت</b><small>هر نوع هک یا باگ‌یوز باعث بن دائمی می‌شود.</small></div>
+</div></section>
+
+<footer>© Oveen Roleplay · Sky RP<br>طراحی و توسعه: <b>عرفان شرافت</b><br>سازندگان: امیر فارمری · مهدی سجادی · <a href="https://armanzare.ir" target="_blank" rel="noopener">armanzare</a></footer>
+
+<script>
+const T=n=>n.toLocaleString('fa-IR')+' تومان';
+const card=(a,n,p,x)=>`<div class="c"><b>${n}${x?`<span class="tag">${x}</span>`:''}</b><span class="p">${p}</span></div>`;
+const put=(id,arr)=>document.getElementById(id).innerHTML=arr.map(([n,p,x])=>card(0,n,typeof p==='number'?T(p):p,x)).join('');
+put('gc',[['۱۰۰ GC',50000],['۵۰۰ GC',200000],['۳۰۰۰ GC',350000],['۶۰۰۰ GC',600000],['۱۰٬۰۰۰ GC',1000000],['۲۰٬۰۰۰ GC',2000000],['GC دلخواه','متناسب با تعداد']]);
+put('g1',[['ساخت گنگ',500000,'تمدید'],['اینت (Interior)','رایگان (خودتان) یا ساخت ما: ۵۰۰ هزار تا ۱٫۵ میلیون','تمدید']]);
+put('g2',[['مارکر جان',100000,'دائمی'],['مارکر ماشین',50000,'دائمی'],['مارکر گان‌شاپ',150000,'دائمی'],['ATM',50000,'دائمی']]);
+put('kits',[['سطح ۱ — ۲ موتور، ۱ ون، ۴ ماشین دلخواه',150000],['سطح ۲ — ۳ موتور، ۳ ون، ۶ ماشین دلخواه',400000],['سطح ۳ — ۴ موتور، ۵ ون، ۱۰ ماشین دلخواه',600000],['سطح ویژه — ۵ موتور، ۰ ون، ۱۵ ماشین + ۲۰ هزار GC برای خرید ماشین',1000000]]);
+put('sp',[['کاتانا','۵۰۰٬۰۰۰ تومان','وان‌شات'],['شماره موبایل مخصوص',300000],['اسکین مخصوص',600000],['ماشین مخصوص','۱ میلیون تومان (با داشتن کد ماشین: ۵۰۰ هزار)'],['خانه VIP','از ۳۰۰ هزار تا ۱٫۵ میلیون تومان']]);
+const R=[['Founder','#111','#fff'],['Owner','#fff'],['Co Owner','#9ca3af'],['Manager','#ef4444'],['Head Admin','#f97316'],['Lead Admin','#facc15'],['Elder Admin','#d1d5db'],['Senior Admin','#22c55e'],['Admin','#3b82f6']];
+document.getElementById('rk').innerHTML=R.map(r=>`<div class="rank"><span class="dot" style="background:${r[1]};border:1px solid #666"></span><b style="color:${r[1]==='#111'?'#fff':r[1]}">${r[0]}</b></div>`).join('');
+const C=[['ارتباط با استف','Admin','همه استف از ادمین به بالا'],['Staff Apply','Admin','همه استف از ادمین به بالا'],['خرید','Manager','منیجر به بالا'],['ارتباط با تیم مدیریتی','Lead Admin','لید ادمین به بالا']];
+document.getElementById('cat').innerHTML=C.map((c,i)=>`<option value="${i}">${c[0]}</option>`).join('');
+document.getElementById('mx').innerHTML='<tr><th>موضوع</th><th>حداقل رنک</th><th>دسترسی</th></tr>'+C.map(c=>`<tr><td>${c[0]}</td><td dir="ltr">${c[1]}+</td><td>${c[2]}</td></tr>`).join('');
+function acc(){const c=C[document.getElementById('cat').value];document.getElementById('accbox').textContent='این تیکت توسط '+c[2]+' قابل مشاهده است.'}acc();
+function send(){const n=document.getElementById('nm').value.trim(),m=document.getElementById('msg').value.trim(),r=document.getElementById('res');
+if(!n||!m){r.style.color='#f87171';r.textContent='نام و توضیحات را کامل کن.';return}
+const id='T-'+Math.floor(1000+Math.random()*9000);
+try{const a=JSON.parse(localStorage.getItem('tk')||'[]');a.push({id,n,m,c:document.getElementById('cat').value});localStorage.setItem('tk',JSON.stringify(a))}catch(e){}
+r.style.color='#4ade80';r.textContent='تیکت '+id+' ثبت شد. منتظر پاسخ استف باش.';document.getElementById('msg').value=''}
+function cp(){try{navigator.clipboard.writeText(document.getElementById('ip').textContent.replace('IP: ',''))}catch(e){}}
+</script>
+</body>
+</html>
